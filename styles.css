@@ -71,14 +71,14 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 2px solid #F5CDB6;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.5) rotate(15deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: #F5CDB6;
   color: #black;
   padding: 10px;
   border-radius: 5px;
@@ -86,7 +86,7 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 .location {
-  background-color: #efefef;
+  background-color: #F5CDB6;
   color: #black;
 }
 .card {
@@ -119,6 +119,16 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.icons {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+.container {
+  padding: 30px;
 }
 
 footer {
